@@ -1,4 +1,5 @@
 def encrypt(text, shift):
+    
     result = ""
     for char in text:
         if char.isalpha():
@@ -31,6 +32,3 @@ def main():
        if exit_choice == 'y':
           break
 main()
-        
-
-       
