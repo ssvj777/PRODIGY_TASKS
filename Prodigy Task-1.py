@@ -6,7 +6,7 @@ def encrypt(text, shift):
             if char.islower():
                 result += chr((ord(char) - ord('a') + shift) % 26 + ord('a'))
             else:
-                result += chr((ord(char) - vijaord('A') + shift) % 26 + ord('A'))
+                result += chr((ord(char) - ord('A') + shift) % 26 + ord('A'))
         else:
             result += char
     return result
